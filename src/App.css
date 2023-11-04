@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  /* width: 100%; */
+  margin: 50px auto;
+  max-width: 1022px;
+}
+
+.list-weekdays>li {
+  margin-top: 23px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #959494;
+}
+
+.list-months {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 400;
+  color: #959494;
+  padding: 0 22px;
+}
+
+.box-cells {
+  height: 140px;
+  margin: 5px 0 0 6px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5px;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 18px;
+  height: 18px;
+  background-color: #EDEDED;
+}
+
+.low-contributions {
+  background-color: #ACD5F2;
+}
+
+.medium-contributions {
+  background-color: #7FA8C9;
+}
+
+.high-contributions {
+  background-color: #527BA0;
+}
+
+.max-contributions {
+  background-color: #254E77;
+}
